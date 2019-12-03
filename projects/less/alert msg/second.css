@@ -1,0 +1,20 @@
+.alerts>section{
+	margin:.5em 2em
+	}
+.alerts>section>p{
+	margin:.5em;
+	padding:1em
+}
+.alert{
+	border:1px solid transparent;
+	border-radius:.2em
+}
+.toolkit{
+	margin:0;
+	font-size:16px;
+	font-family:"Helvetica Neue","Helvetica","Arial",sans-serif
+	}
+.toolkit h1{
+	margin-left:1.2em;
+	font-size:1.5em
+}

@@ -1,0 +1,23 @@
+.exam{
+width:550px;
+height:310px;
+margin:0;
+padding:0
+}
+.box,.centered-box,.exam-box{
+box-shadow:0 1px 5px rgba(0,0,0,.3)
+}
+.exam-box{
+position:relative;
+top:10px;
+width:410px;
+height:285px;
+margin:0 auto;
+padding:1px 5px;
+background-color:#fff
+}
+[class^=stair-]{
+height:24px;
+margin:4px 0;
+outline:1px solid #000
+}

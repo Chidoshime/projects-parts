@@ -1,0 +1,12 @@
+@base-color: #ff4136;
+
+.generate-stairs(@n) when (@n > 0) {
+  .stair-@{n}{
+    background-color: spin(@base-color, @n * -25);
+    width: @n * 10%;
+  }
+  .generate-stairs(@n - 1);
+}
+.generate-stairs(10);
+
+
